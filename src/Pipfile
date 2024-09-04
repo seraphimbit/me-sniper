@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+curl-cffi = "*"
+flask = "*"
+waitress = "*"
+requests = "*"
+python-dotenv = "*"
+solana = "*"
+solders = "*"
+base58 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
